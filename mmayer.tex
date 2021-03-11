@@ -1,0 +1,216 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=green,
+    urlcolor=red
+}
+
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{tagline}{VividPurple}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Hamidou TESSILIMI}
+\tagline{IT Developer \& Student}
+\photoR{2.5cm}{avatar}
+\personalinfo{%
+  \email{tessilimi.hamidou@gmail.com}
+  \location{Kpondéhou, Akpakpa/Cotonou, BJ}\\
+  %\homepage{blacky.github.io}
+  \linkedin{hamidou-tessilimi-03820a170/}
+  \github{blacky-yg}
+}
+
+\makecvheader
+
+\columnratio{0.5}
+
+\begin{paracol}{2}
+
+\cvsection{Carrer summary}
+\begin{quote}
+Currently in second year at Epitech Cotonou in order to increase my level in programming, I'm an IT developer with skills in Linux System Administrator. With Epitech's Pedagogy, I learnt how to work with a team and how to be autonomous. I love to be constantly in challenge, in order to apply my skills and also to improve them. For now, I'm learning C++ language, web development using multiple tools, frameworks and libraries both in frontend and backend.  I'm also learning cloud computing.
+\end{quote}
+
+\cvsection{Education}
+
+\cvevent{Ionis School of Technology and Management}{Technical and Managerial Training}{September 2020 - Date}{France (Remote)}
+The Teaching and Coaching program is designed to train future teaching assistants who want to invest in the support of students from lower promotions by an efficient transmission of their experience.\\
+\divider
+
+\cvevent{European Institute of Information Technology (EPITECH)}{Bachelor of Science (Bsc)}{September 2019 - Date}{Sèmè One, Cotonou, Benin}
+\begin{itemize}
+\item Agile methodology
+\item Long-term expertise
+\item Learning by Doing
+\item Individual and group projects to be carried out (Unix system programming, Scientific programming, Graphic programming, Web programming)
+\item Innovation HUB weeks (Take a theme and develop solutions related to it)
+\item Professional skills (how to present and sell a solution)
+\item Develop your English language skills
+\end{itemize}
+
+\divider
+
+\cvevent{SUPTELECOMSBJ (ESGTIC)}{Higher School Preparatory Classes}{September 2016 - July 2018}{PK3, Cotonou, Benin}
+\begin{itemize}
+\item Algebra, Analysis
+\item Thermodynamics, Quantum Physics, Fluid mechanics, Special Relativity
+\item Algorithmic \& Programming Concepts
+\item Analog and Digital electronics
+\end{itemize}
+
+\newpage
+\switchcolumn
+
+\cvsection{Experience}
+
+\cvevent{EPITECH \& Coding Academy}{Internship: Teaching Assistant (AER)}{October 2020 - Date}{Sèmè One, Cotonou, Benin}
+\begin{itemize}
+\item Set up pedagogical workshops
+\item Ensure daily follow-up of students
+\item Implementing the means necessary for student\\
+success
+\end{itemize}
+
+\divider
+
+\cvevent{GURULAB SAS}{Intership: FullStack Web Developer (MERN) }{July 2020 - September 2020}{Fidjrossè, Benin}
+\begin{itemize}
+\item Build full-stack apps with MongoDB, React, Express and Node
+\item Create practical real-world apps from front to back
+\item Best practices as a JavaScript developer (in React / Node)
+\item Use latest features of the JavaScript ecosystem
+\end{itemize}
+I worked on the administrative part of\\
+Link:
+\href{https://mangeracotonou.com}{Manger A Cotonou}\\
+
+\divider
+
+\cvevent{GOOGLE}{Apprenticeship: Google Africa Developer Scolarship 2020}{Mai 2020 - Octobre 2020}{Cotonou, Benin (Remote)}
+Having access to a number of resources concerning web development, it allowed me to:\\
+\begin{itemize}
+\item Understand web development and the different\\
+stacks that can be used
+\item Use the "Mobile First" methodology
+\item Acquire skills in Javascript application development
+\item Have some basic knowledge in application deployment (Firebase)
+\item Understand how Progressive Web Apps (PWA) work\\
+\end{itemize}
+I developed a PWA at the end of this training:\\
+Link:
+\href{https://tinyurl.com/app-weather}{Weather App}\\
+\divider
+
+\cvevent{SEWEMA}{Apprenticeship: Web Developer}{May 2019 - June 2019}{Fidjrossè, Benin}
+\begin{itemize}
+\item Development of web sites with HTML, CSS, Bootstrap
+\item Creation of web applications with Javascript and connection of a database in PHP
+\end{itemize}
+
+\newpage
+\switchcolumn
+
+\cvsection{Voluntary experience}
+
+\cvevent{EPITECH}{Teaching: Creation of Working Tools (EPITOOLS)}{Decembre 2019 - Date}{Sèmè One, Cotonou, Benin}
+\begin{itemize}
+\item Sharing of knowledge between students through various tools made available to them and promotion of organized extracurricular activities
+\item Creation of an Epitech CheatSheet available to all students
+\item Management of EPITECH associations
+\end{itemize}
+
+\divider
+
+\cvevent{SUPTELECOMSBJ (ESGTIC)}{Teaching: Teaching Assistant}{September 2017 - July 2018}{PK3, Cotonou, Benin}
+Being in Prepa 2, I worked out and treated TD topics on analysis, algebra, physics, and electricity with the students of Prepa 1. I was also available for any questions they might have with their school year.\\
+
+\switchcolumn
+
+\cvsection{Technical skills}
+
+\cvskill{C}{4}
+\divider
+\cvskill{C++}{3}
+\divider
+\cvskill{Haskell}{3}
+\divider
+\cvskill{HTML / CSS / Bootstrap}{4}
+\divider
+\cvskill{Javascript / NodeJs}{4}
+\divider
+\cvskill{React.js}{3}
+\divider
+\cvskill{Python}{3}
+\divider
+\cvskill{PHP}{3}
+\divider
+\cvskill{Shell Scripting}{3}
+\divider
+\cvskill{Debugging}{4}
+\divider
+\cvskill{DevOps (Docker, CI/CD)}{2}
+\divider
+\cvskill{Database Technologies}{3}
+
+\switchcolumn
+\cvsection{Soft skills}
+
+\cvtag{Sociable}
+\cvtag{Dynamic}
+\cvtag{Self-training \& Autonomy}\\
+\cvtag{Team Work}
+\cvtag{Adaptability}
+\cvtag{Good listening}\\
+\cvtag{Hard-working}
+\cvtag{Curious}
+\cvtag{Organized}
+\cvtag{Motivated}
+
+\switchcolumn
+\cvsection{Personal Interest}
+
+\cvtag{Football}
+\cvtag{Fifa}
+\cvtag{Photography}
+\cvtag{TECH Info}
+
+\switchcolumn
+\divider
+
+\cvsection{Referees}
+
+\cvref{Johanne BRUFFAERTS}{johanne.bruffaerts@epitech.eu}{Head of Business Development @ EPITECH Benin}{Cotonou, Benin}
+
+\divider
+
+\cvref{Florent OGOUTCHORO}{florent.ogoutchoro@gurulab.co}{Co-founder \& CEO @ GURULAB SAS}{Cotonou, Benin}
+
+\end{paracol}
+
+\end{document}
